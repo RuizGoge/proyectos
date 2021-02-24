@@ -50,6 +50,7 @@ body {
 
 /* Contenedor del login  */
 h2 {
+  color: lightblue;
   font-size: 25px;
   display: flex;
   align-items: center;
@@ -176,4 +177,23 @@ h2 {
 }
 .footer > a:hover {
   text-decoration-line: underline;
+}
+
+@media only screen and (max-width: 600px){
+  .login__container{
+    border-radius: 0px;
+    border: none;
+    padding: 0px;
+    width: 100%;
+    box-shadow: none;
+  }
+  .planets{
+    display: none;
+  }
+  .header{
+    display: none;
+  }
+
+
+
 }
