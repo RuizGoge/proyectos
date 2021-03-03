@@ -73,6 +73,13 @@ ul:hover {
   color: white;
   font-size: 25px;
 }
+.categories__title{
+  font-size: 10px;
+  position: relative;
+  top: 60px;
+  left: 30px;
+  color: white;
+}
 .input {
   height: 30px;
   width: 70%;
@@ -158,4 +165,23 @@ ul:hover {
   width: 15px;
   margin: 2px;
 
+}
+/* footer */
+.footer {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-evenly;
+  background-color: #020201;
+}
+.footer > a {
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 12px;
+}
+.footer > a:hover {
+  text-decoration-line: underline;
 }

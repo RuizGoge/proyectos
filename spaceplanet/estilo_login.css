@@ -178,22 +178,35 @@ h2 {
 .footer > a:hover {
   text-decoration-line: underline;
 }
+@-webkit-keyframes rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+.planets {
+  animation: 200s rotate linear infinite;
+}
 
-@media only screen and (max-width: 600px){
-  .login__container{
+@media only screen and (max-width: 600px) {
+  .login__container {
     border-radius: 0px;
     border: none;
     padding: 0px;
     width: 100%;
     box-shadow: none;
   }
-  .planets{
+
+  .header {
     display: none;
   }
-  .header{
+  .footer {
     display: none;
   }
-
-
-
+  .login__container--social-media div {
+    align-items: center;
+    justify-content: center;
+  }
 }
